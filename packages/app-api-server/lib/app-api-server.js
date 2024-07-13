@@ -5,7 +5,7 @@ function appApiServer() {
   const app = new Koa()
 
   app.use(async (ctx) => {
-    ctx.body = 'Hello World'
+    ctx.body = 'Package One'
   })
 
   app.listen(3000)
